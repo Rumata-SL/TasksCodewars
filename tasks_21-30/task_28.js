@@ -1,25 +1,13 @@
 "use strict";
-// task kyu 6 "Multiples of 3 or 5"
+// task kyu 8 "Basic Training: Add item to an Array"
 /*
-    If we list all the natural numbers below 10 that are multiples of 3 or 5,
-     we get 3, 5, 6 and 9. The sum of these multiples is 23.
-    Finish the solution so that it returns the sum of all the
-    multiples of 3 or 5 below the number passed in. Additionally,
-     if the number is negative, return 0 (for languages that do have them).
-    Note: If the number is a multiple of both 3 and 5, only count it once.
+    Add the value "codewars" to the websites array.
+    After your code executes the websites
+    array should == ["codewars"]
 */
-
 /*
-    Если мы перечислим все натуральные числа до 10, кратные 3 или 5,
-     мы получим 3, 5, 6 и 9. Сумма этих кратных равна 23.
-    Завершите решение так, чтобы оно возвращало сумму всех чисел, кратных 3 или 5 , меньше переданного числа. Кроме того, если число отрицательное,
-     верните 0 (для языков, в которых они есть).
-    Примечание. Если число кратно и 3, и 5, считайте его только один раз .
+    Добавьте значение «codewars» в массив веб-сайтов.
+    После выполнения вашего кода массив
+    веб-сайтов должен == ["codewars"]
 */
-function solution(number) {
-    let count = 0;
-    for (let i = 3; i < number; i++) {
-        if (i % 3 === 0 || i % 5 === 0) count += i;
-    }
-    return count
-}
+websites.push('codewars');
